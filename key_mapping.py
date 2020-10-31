@@ -1,4 +1,5 @@
 import pyautogui
+import time
 
 shift = 't'
 ctrl = 'b'
@@ -44,7 +45,6 @@ def press_a_key(note, ptime):
         pyautogui.keyUp(note[1])
         pyautogui.keyUp('shift')
 
-
 def Bass_Do(ptime):
     press_a_key(_note_Bass_Do, ptime)
 def Bass_Re(ptime):
@@ -59,7 +59,6 @@ def Bass_La(ptime):
     press_a_key(_note_Bass_La, ptime)
 def Bass_Si(ptime):
     press_a_key(_note_Bass_Si, ptime)
-
 
 def Normal_Do(ptime):
     press_a_key(_note_Normal_Do, ptime)
@@ -76,7 +75,6 @@ def Normal_La(ptime):
 def Normal_Si(ptime):
     press_a_key(_note_Normal_Si, ptime)
 
-
 def Treble_Do(ptime):
     press_a_key(_note_Treble_Do, ptime)
 def Treble_Re(ptime):
@@ -92,6 +90,9 @@ def Treble_La(ptime):
 def Treble_Si(ptime):
     press_a_key(_note_Treble_Si, ptime)
 
+# pause
+def Pause(ptime):
+    time.sleep(ptime)
 
 
 
