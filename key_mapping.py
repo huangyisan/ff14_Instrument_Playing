@@ -17,7 +17,9 @@ _note_Normal_Do = ['n','q']
 _note_Normal_Re = ['n','w']
 _note_Normal_Mi = ['n','e']
 _note_Normal_Fa = ['n','r']
+_note_Normal_Fa_s = ['n','5']
 _note_Normal_So = ['n','t']
+_note_Normal_So_s = ['n','6']
 _note_Normal_La = ['n','y']
 _note_Normal_Si = ['n','u']
 
@@ -68,8 +70,12 @@ def Normal_Mi(ptime):
     press_a_key(_note_Normal_Mi, ptime)
 def Normal_Fa(ptime):
     press_a_key(_note_Normal_Fa, ptime)
+def Normal_Fa_s(ptime):
+    press_a_key(_note_Normal_Fa_s, ptime)
 def Normal_So(ptime):
     press_a_key(_note_Normal_So, ptime)
+def Normal_So_s(ptime):
+    press_a_key(_note_Normal_So_s, ptime)
 def Normal_La(ptime):
     press_a_key(_note_Normal_La, ptime)
 def Normal_Si(ptime):
