@@ -32,6 +32,11 @@ _note_Treble_So = [shift,'t']
 _note_Treble_La = [shift,'y']
 _note_Treble_Si = [shift,'u']
 
+# V Treble
+_note_V_Treble_Si = [shift,'i']
+
+
+
 def press_a_key(note, ptime):
     if note[0] == ctrl:
         pyautogui.keyDown('ctrl')
@@ -96,6 +101,8 @@ def Treble_La(ptime):
 def Treble_Si(ptime):
     press_a_key(_note_Treble_Si, ptime)
 
+def V_Treble_Do(ptime):
+    press_a_key(_note_V_Treble_Si, ptime)
 # pause
 def Pause(ptime):
     time.sleep(ptime)
